@@ -1,4 +1,3 @@
-// This sequence needs to be repeated in each project as a workaround.
 //       See https://github.com/rust-lang/cargo/issues/5034
 // For clippy lints see: https://rust-lang.github.io/rust-clippy/master
 // For rustc lints see: https://doc.rust-lang.org/rustc/lints/index.html
