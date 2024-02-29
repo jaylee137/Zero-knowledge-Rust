@@ -1,4 +1,4 @@
-# OpenZKP
+# Open Zero-Knowledge-Proof & Rust
 
 [![Crates.io](https://img.shields.io/crates/l/zkp-stark)](/License.md)
 [![](https://docs.rs/zkp-stark/badge.svg)](https://docs.rs/zkp-stark)
@@ -135,14 +135,6 @@ pub fn main() {
 **No side-channel resistance.** The implementation favours performance over side-channel resistance. While this is common in zero-knowledge proof system, you should be aware that his might leak intermediate computations. Side-channel resistance can be implemented.
 
 **Hard-coded field and hash.** The current implementation uses a particular [prime field](/algebra/primefield) and a particular [hash function](/crypto/hash). These are optimized for verification in the Ethereum Virtual Machine. This can be generalized to other primitives optimized for other use cases.
-
-## Contributing
-
-See our [Contributing guideline](/Contributing.md) and [Code of conduct](/Code_of_conduct.md).
-
-See CircleCI documentation on how to [run tests locally][cci-local].
-
-[cci-local]: https://circleci.com/docs/2.0/local-cli/
 
 ## References
 
