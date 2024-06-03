@@ -15,7 +15,7 @@ Project current implements
 
 and has
 
-* 🌞 a simple interface (see the [example](#example) below),
+* 🌞 a simple interface (see the [example](#example) below)
 * 🗜️ succinct proofs,
 * 🏎️ decent performance, and
 * 🌐 webassembly support.
